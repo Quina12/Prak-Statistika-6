@@ -1,0 +1,5 @@
+install.packages("ggplot2")
+library(ggplot2)
+data_quina = read.csv2("C:/Users/Quina/Downloads/DirectMarketing.csv")
+qplot(data_quina$AmountSpent, data_quina$Salary)
+plot(data_quina$AmountSpent, data_quina$Salary)
